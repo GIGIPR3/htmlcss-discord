@@ -73,6 +73,8 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .button4download1{

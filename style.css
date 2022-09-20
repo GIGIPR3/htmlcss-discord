@@ -98,36 +98,52 @@ header{
 /* corpo */
 
 main{
-    width: 80%;
     margin: auto;
 }
 
 .discover{
-    margin-top: 10%;
-    margin-bottom: 10%;
+    width: 100%;
 }
 
 .img-width{
-    width: 110%;
+    width: 100%;
 }
 
 .row-around1{
+    background-color: #e2e2e2;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom:  5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.row-around3{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10%;
+    padding-bottom:  10%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .text{
     width: 50%;
     vertical-align: middle;
     padding-left: 15%;
+    display: inline-block;
 }
 
 .text1{
     width: 50%;
     vertical-align: middle;
     padding-right: 15%;
+    display: inline-block;
 }
 
 #titolo1{
@@ -138,5 +154,4 @@ main{
 .colonne{
     display: flex;
     flex-direction: column;
-
 }

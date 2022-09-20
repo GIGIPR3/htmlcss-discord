@@ -4,17 +4,17 @@
     box-sizing: border-box;
 }
 
-/* intestazione */
-
 body{
     font-family: 'Montserrat', sans-serif;
 }
+
+/* intestazione */
 
 header{
     background-image: url(sfondo-header.png);
     background-position: center;
     background-size: cover;
-    height: 550px;
+    height: 100%;
 }
 
 .navigation{
@@ -43,4 +43,84 @@ header{
     
 }
 
+/* 2nd parte intestazione */
 
+.mar-bottom{
+    padding-bottom: 10%;
+}
+
+.column-around{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.column-around div{
+    width: 50%;
+    margin: auto;
+    padding-top: 4%;
+    color: white;
+    text-align: center;
+}
+
+#titolo{
+    font-size: x-large;
+}
+
+.row-around2{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.button4download1{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    margin-top: 7%;
+    margin-bottom: 20%;
+    background-color: white;
+    padding: 2%;
+    border-radius: 30px;
+}
+
+.button4download2{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    margin-top: 7%;
+    margin-bottom: 20%;
+    background-color: #23272a;
+    padding: 2%;
+    border-radius: 30px;
+}
+
+/* corpo */
+
+main{
+    width: 70%;
+    margin: auto;
+}
+
+
+.column-aroud1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.row-around1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.text{
+    width: 60%;
+    vertical-align: middle;
+}
+
+.titolo1{
+    font-size: xx-large;
+}

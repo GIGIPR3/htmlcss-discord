@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* intestazione */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-image: url(sfondo-header.png);
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+}
+
+.navigation{
+    padding-top: 2%;
+}
+
+.row-around{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.row-between{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+    color: white;
+}
+
+.bottone-accedi{
+    background-color: white;
+    display: inline-block;
+    padding: 15%;
+    border-radius: 20px;
+    
+}
+
+

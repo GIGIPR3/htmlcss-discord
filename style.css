@@ -98,15 +98,17 @@ header{
 /* corpo */
 
 main{
-    width: 70%;
+    width: 80%;
     margin: auto;
 }
 
+.discover{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
 
-.column-aroud1{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.img-width{
+    width: 110%;
 }
 
 .row-around1{
@@ -117,10 +119,24 @@ main{
 }
 
 .text{
-    width: 60%;
+    width: 50%;
     vertical-align: middle;
+    padding-left: 15%;
 }
 
-.titolo1{
-    font-size: xx-large;
+.text1{
+    width: 50%;
+    vertical-align: middle;
+    padding-right: 15%;
+}
+
+#titolo1{
+    font-size: 250%;
+    padding-bottom: 5%;
+}
+
+.colonne{
+    display: flex;
+    flex-direction: column;
+
 }
